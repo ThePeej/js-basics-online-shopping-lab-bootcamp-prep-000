@@ -88,3 +88,4 @@ console.log()
 
 ///removeitem testing
 console.log('~~~ removeitem testing ~~~')
+console.log(cart)
