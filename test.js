@@ -71,11 +71,13 @@ function viewCart() {
     for ( let i = 0; i < cart.length; i++) {
       var food = Object.keys(cart[i])[0]
       var cost = cart[i][Object.keys(cart[i])[0]]
+      console.log('HEY NOW!')
     }
   }
 }
 
 viewCart()
+console.log(n)
 /*
 ///total cost testing
 console.log('~~~ total cost testing ~~~')
