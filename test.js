@@ -112,4 +112,3 @@ function removeFromCart(item) {
   }
 }
 removeFromCart("Yogurt")
-removeFromCart("Cereal")
