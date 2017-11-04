@@ -43,5 +43,5 @@ var n = cart.length
 console.log(n)
 
 for ( let i = 0; i < cart.length; i++) {
-console.log(`You have ${cart}`)
+console.log(cart)
 }
