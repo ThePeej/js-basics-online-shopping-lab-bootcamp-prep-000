@@ -88,7 +88,7 @@ console.log()
 
 ///removeitem testing
 console.log('~~~ remove item testing ~~~')
-///console.log(cart)
+console.log(cart)
 function removeFromCart(item) {
   for ( let i = 0; i < cart.length; i++) {
     console.log(cart[i])
