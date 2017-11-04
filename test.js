@@ -72,11 +72,14 @@ function viewCart() {
     var cost = cart[0][Object.keys(cart[0])[0]]
     console.log(`In your cart, you have ${food} at $${cost}.`)
   } else {
-    for ( let i = 0; i < cart.length; i++) {
+    for ( let i = 0; i < cart.length-1; i++) {
       var food = Object.keys(cart[i])[0]
       var cost = cart[i][Object.keys(cart[i])[0]]
       inCart.push(` ${food} at $${cost}`)
     }
+    var food = Object.keys(cart[i])[n-1]
+    var cost = cart[n-1][Object.keys(cart[n-1])[0]]
+    inCart.push(` ${food} at $${cost}`)
     console.log(inCart)
     console.log(`In your cart, you have${inCart}.`)
   }
