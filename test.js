@@ -11,3 +11,4 @@ function addtobasket(item) {
 }
 
 addtobasket("pear")
+addtobasket("orange")
