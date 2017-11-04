@@ -93,3 +93,5 @@ function removeFromCart(item) {
   delete cart.item
   console.log(cart)
 }
+
+removeFromCart("Cereal")
