@@ -36,7 +36,7 @@ function addToCart(item) {
 
 ///addToCart("Milk")
 ///addToCart("Cereal")
-///("Steak")
+///addToCart("Steak")
 
 ///viewCart testing
 console.log('~~~ viewCart testing ~~~')
@@ -58,10 +58,9 @@ console.log(`In your cart, you have ${food} at $${cost}.`)
 }
 console.log()
 */
-
 ///addToCart("Milk")
 ///addToCart("Cereal")
-("Steak")
+addToCart("Steak")
 
 function viewCart() {
   var n = cart.length
