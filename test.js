@@ -17,7 +17,7 @@ addtobasket("orange")
 var cart = []
 
 function addToCart(item) {
-  Object.assign({}, cart, {[item]: Math.floor(Math.random()*(100)+1)})
+  cart[item] = Math.floor(Math.random()*(100)+1)
   console.log(`${item} has been added to your cart.`)
   console.log(cart)
   console.log(cart.length)
