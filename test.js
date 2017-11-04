@@ -91,6 +91,7 @@ console.log('~~~ remove item testing ~~~')
 console.log(cart)
 function removeFromCart(item) {
   var inCart = false
+  var modcart
   for ( let i = 0; i < cart.length; i++) {
     if (cart[i].hasOwnProperty(item)) {
       inCart = true
@@ -100,7 +101,7 @@ function removeFromCart(item) {
   }
   if (inCart) {
     console.log(`Didn\'t want the ${item} anyway`)
-    console.log(cart[0])
+    cart = cart.slice(1)
     console.log(cart)
   } else {
     console.log(`${item} is not in your cart.`)
