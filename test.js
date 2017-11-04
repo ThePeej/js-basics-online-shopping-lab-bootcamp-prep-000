@@ -77,7 +77,6 @@ function viewCart() {
 }
 
 viewCart()
-console.log(n)
 /*
 ///total cost testing
 console.log('~~~ total cost testing ~~~')
