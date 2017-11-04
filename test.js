@@ -60,7 +60,7 @@ console.log()
 */
 addToCart("Milk")
 addToCart("Cereal")
-///addToCart("Steak")
+addToCart("Steak")
 
 function viewCart() {
   var n = cart.length
@@ -75,7 +75,7 @@ function viewCart() {
       var food = Object.keys(cart[i])[0]
       var cost = cart[i][Object.keys(cart[i])[0]]
       var inCart = []
-      inCart.push(` ${food} at $${cost},`)
+      inCart.push(` Food at $cost,`)
     }
     console.log(inCart)
     console.log(`In your cart, you have${inCart}.`)
