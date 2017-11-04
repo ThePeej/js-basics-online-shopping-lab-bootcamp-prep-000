@@ -13,7 +13,7 @@ function addToCart(item) {
   var addeditems = {[item]: Math.floor(Math.random()*(100)+1) }
   cart.push(addeditems)
   console.log(`${item} has been added to your cart.`)
-  cart.length = Object.keys(cart).length
+  console.log(cart.length)
   return cart
 }
 
