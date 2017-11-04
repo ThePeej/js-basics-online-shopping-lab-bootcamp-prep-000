@@ -87,5 +87,9 @@ placeOrder(123456789)
 console.log()
 
 ///removeitem testing
-console.log('~~~ removeitem testing ~~~')
+console.log('~~~ remove item testing ~~~')
 console.log(cart)
+function removeFromCart(item) {
+  delete cart.item
+  console.log(cart)
+}
