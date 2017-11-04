@@ -23,7 +23,8 @@ function viewCart() {
     console.log("Your shopping cart is empty.")
   } else {
     for ( let i = 0; i < cart.length; i++) {
-
+      var item = Object.keys(cart[i])[0]
+      var cost = cart[i][Object.keys(cart[i])[0]]
     }
   }
 }

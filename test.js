@@ -53,5 +53,3 @@ console.log()
 var food = Object.keys(cart[i])[0]
 console.log(food)
 }
-
-
