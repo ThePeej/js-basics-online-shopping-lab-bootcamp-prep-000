@@ -20,17 +20,23 @@ function addToCart(item) {
 
 function viewCart() {
   var n = cart.length
+  var inCart = []
   if (n === 0) {
     console.log("Your shopping cart is empty.")
   } else if (n === 1) {
-    var food = Object.keys(cart[1])[0]
-    var cost = cart[i][Object.keys(cart[1])[0]]
+    var food = Object.keys(cart[0])[0]
+    var cost = cart[0][Object.keys(cart[0])[0]]
     console.log(`In your cart, you have ${food} at $${cost}.`)
   } else {
-    for ( let i = 0; i < cart.length; i++) {
+    for ( let i = 0; i < cart.length-1; i++) {
       var food = Object.keys(cart[i])[0]
       var cost = cart[i][Object.keys(cart[i])[0]]
+      inCart.push(` ${food} at $${cost}`)
     }
+    var food = Object.keys(cart[n-1])[0]
+    var cost = cart[n-1][Object.keys(cart[n-1])[0]]
+    inCart.push(` and ${food} at $${cost}`)
+    console.log(`In your cart, you have${inCart}.`)
   }
 }
 
