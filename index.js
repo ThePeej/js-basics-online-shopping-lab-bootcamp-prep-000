@@ -19,10 +19,15 @@ function addToCart(item) {
 
 function viewCart() {
   var n = cart.length
+  if (n === 0) {
+    console.log("Your shopping cart is empty.")
+  } else {
+    for( i = 0, i < cart.length, i++) {
+      
+    }
+  }
 }
 
-viewCart()
-console.log(cart.length)
 
 function total() {
   // write your code here
