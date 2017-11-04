@@ -44,4 +44,5 @@ console.log(n)
 
 for ( let i = 0; i < cart.length; i++) {
 console.log(Object.keys(cart[1]))
+console.log(Object.values(cart[1]))
 }
