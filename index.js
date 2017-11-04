@@ -20,6 +20,8 @@ function addToCart(item) {
 
 function viewCart() {
   var n = cart.length
+  var food = ()
+  var cost = 0
   if (n === 0) {
     console.log("Your shopping cart is empty.")
   } else if (n === 1) {
