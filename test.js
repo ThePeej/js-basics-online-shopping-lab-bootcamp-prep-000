@@ -100,4 +100,4 @@ function removeFromCart(item) {
   }
 }
 
-removeFromCart("Cookies")
+removeFromCart("Cereal")
