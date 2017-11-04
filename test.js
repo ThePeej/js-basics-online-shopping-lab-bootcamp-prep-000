@@ -37,3 +37,6 @@ function addToCart(item) {
 addToCart("Ice Cream")
 addToCart("Cereal")
 addToCart("Steak")
+
+var n = cart.length
+console.log(n)
