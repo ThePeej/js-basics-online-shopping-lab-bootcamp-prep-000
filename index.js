@@ -17,11 +17,12 @@ function addToCart(item) {
   return cart
 }
 
-console.log(cart.length)
-
 function viewCart() {
   var n = cart.length
 }
+
+viewCart()
+console.log(cart.length)
 
 function total() {
   // write your code here
