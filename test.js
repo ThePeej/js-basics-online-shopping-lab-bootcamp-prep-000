@@ -13,3 +13,7 @@ function addtobasket(item) {
 
 addtobasket("pear")
 addtobasket("orange")
+
+var cart = []
+var item = "watermelon"
+console.log(Object.assign({}, cart, {[item]: Math.floor(Math.random()*(100)+1)}))
