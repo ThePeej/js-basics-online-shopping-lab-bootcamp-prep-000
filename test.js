@@ -47,6 +47,5 @@ for ( let i = 0; i < cart.length; i++) {
 console.log(cart)
 console.log(cart[i])
 console.log(Object.keys(cart[i])[0]) ///Gets 1 element array of key at [i] index, then gets value of said array at index [0]
-console.log(cart[i])
 console.log(cart[i][Object.keys(cart[i])])
 }
