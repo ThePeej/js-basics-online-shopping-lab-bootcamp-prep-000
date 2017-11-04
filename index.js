@@ -17,7 +17,7 @@ function addToCart(item) {
   return cart
 }
 
-/*
+
 function viewCart() {
   var n = cart.length
   if (n === 0) {
@@ -33,7 +33,7 @@ function viewCart() {
     }
   }
 }
-*/
+
 
 function total() {
   var totalcost = 0
