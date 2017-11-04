@@ -40,6 +40,8 @@ addToCart("Steak")
 
 ///viewCart testing
 console.log('~~~ viewCart testing ~~~')
+
+/*
 var n = cart.length
 console.log(n)
 
@@ -55,7 +57,25 @@ var cost = cart[i][Object.keys(cart[i])[0]]
 console.log(`In your cart, you have ${food} at $${cost}.`)
 }
 console.log()
+*/
 
+function viewCart() {
+  var n = cart.length
+  if (n === 0) {
+    console.log("Your shopping cart is empty.")
+  } else if (n === 1) {
+    var food = Object.keys(cart[1])[0]
+    var cost = cart[i][Object.keys(cart[1])[0]]
+    console.log(`In your cart, you have ${food} at $${cost}.`)
+  } else {
+    for ( let i = 0; i < cart.length; i++) {
+      var food = Object.keys(cart[i])[0]
+      var cost = cart[i][Object.keys(cart[i])[0]]
+    }
+  }
+}
+
+viewcart()
 /*
 ///total cost testing
 console.log('~~~ total cost testing ~~~')
