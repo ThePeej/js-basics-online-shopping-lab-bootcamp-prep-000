@@ -103,9 +103,9 @@ function removeFromCart(item) {
   }
   if (inCart) {
     console.log(`Didn\'t want the ${item} anyway`)
-    cart = cart.slice(1)
     console.log(itemnum)
-    console.log(cart)
+    ///cart = cart.slice(1)
+    ///console.log(cart)
   } else {
     console.log(`${item} is not in your cart.`)
     ///console.log(cart)
