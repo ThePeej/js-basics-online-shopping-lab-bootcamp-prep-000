@@ -90,7 +90,7 @@ console.log()
 console.log('~~~ remove item testing ~~~')
 console.log(cart)
 function removeFromCart(item) {
-  var inCart = 0
+  var inCart = false
   for ( let i = 0; i < cart.length; i++) {
     if (cart[i].hasOwnProperty(item)) {
       inCart = true
