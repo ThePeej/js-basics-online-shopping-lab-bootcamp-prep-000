@@ -75,7 +75,7 @@ function viewCart() {
     var food1 = Object.keys(cart[0])[0]
     var cost1 = cart[0][Object.keys(cart[0])[0]]
     var food2 = Object.keys(cart[1])[0]
-    var cost2 = cart[0][Object.keys(cart[1])[0]]
+    var cost2 = cart[1][Object.keys(cart[1])[0]]
     console.log(`In your cart, you have ${food1} at $${cost1} and ${food2} at $${cost2}.`)
   } else {
     for ( let i = 0; i < cart.length-1; i++) {
