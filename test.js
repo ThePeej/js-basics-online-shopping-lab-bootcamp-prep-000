@@ -46,7 +46,6 @@ console.log(n)
 for ( let i = 0; i < cart.length; i++) {
 console.log(cart)
 console.log(cart[i])
-var arrkeys = Object.keys(cart)
-console.log(arrkeys)
+console.log(Object.keys(cart[i]))
 console.log(cart[i][Object.keys(cart[i])])
 }
