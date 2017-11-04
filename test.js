@@ -74,8 +74,10 @@ function viewCart() {
     for ( let i = 0; i < cart.length; i++) {
       var food = Object.keys(cart[i])[0]
       var cost = cart[i][Object.keys(cart[i])[0]]
-      console.log('HEY NOW!')
+      var inCart = []
+      inCart.push(`${food} at ${cost}`)
     }
+    console.log(`In your cart, you have ${inCart}.`)
   }
 }
 
