@@ -89,13 +89,14 @@ console.log()
 ///removeitem testing
 console.log('~~~ remove item testing ~~~')
 console.log(cart)
-console.log(Object.keys(cart[0]))
+///console.log(Object.keys(cart[0]))
 function removeFromCart(item) {
   var inCart = false
-  var modcart
+  var itemnum = 0
   for ( let i = 0; i < cart.length; i++) {
     if (cart[i].hasOwnProperty(item)) {
       inCart = true
+      itemnum = i
     } else {
 
     }
@@ -103,6 +104,7 @@ function removeFromCart(item) {
   if (inCart) {
     console.log(`Didn\'t want the ${item} anyway`)
     cart = cart.slice(1)
+    console.log(i)
     console.log(cart)
   } else {
     console.log(`${item} is not in your cart.`)
