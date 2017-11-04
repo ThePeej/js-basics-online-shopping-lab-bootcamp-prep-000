@@ -54,7 +54,7 @@ var food = Object.keys(cart[i])[0]
 var cost = cart[i][Object.keys(cart[i])[0]]
 console.log(`In your cart, you have ${food} at $${cost}.`)
 }
-
+console.log()
 ///total cost testing
 var totalcost = 0
 console.log(totalcost)
