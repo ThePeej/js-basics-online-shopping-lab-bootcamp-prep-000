@@ -90,7 +90,7 @@ console.log()
 console.log('~~~ remove item testing ~~~')
 console.log(cart)
 function removeFromCart(item) {
-  delete cart.item
+  delete cart[item]
   console.log(cart)
 }
 
