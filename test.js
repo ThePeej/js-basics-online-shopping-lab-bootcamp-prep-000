@@ -65,4 +65,3 @@ for ( let i = 0; i < cart.length; i++) {
   totalcost = totalcost + cart[i][Object.keys(cart[i])[0]]
   console.log(totalcost)
 }
-
