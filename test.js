@@ -110,4 +110,4 @@ function removeFromCart(item) {
     ///return cart
   }
 }
-removeFromCart("Steak")
+removeFromCart("Cereal")
