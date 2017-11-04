@@ -60,7 +60,7 @@ console.log()
 */
 ///addToCart("Milk")
 ///addToCart("Cereal")
-///addToCart("Steak")
+addToCart("Steak")
 
 function viewCart() {
   var n = cart.length
