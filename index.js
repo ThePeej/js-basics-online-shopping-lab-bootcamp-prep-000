@@ -27,6 +27,10 @@ function viewCart() {
     var food = Object.keys(cart[0])[0]
     var cost = cart[0][Object.keys(cart[0])[0]]
     console.log(`In your cart, you have ${food} at $${cost}.`)
+  } else if (n === 2) {
+    var food = Object.keys(cart[0])[0]
+    var cost = cart[0][Object.keys(cart[0])[0]]
+    console.log(`In your cart, you have ${food} at $${cost}.`)
   } else {
     for ( let i = 0; i < cart.length-1; i++) {
       var food = Object.keys(cart[i])[0]
