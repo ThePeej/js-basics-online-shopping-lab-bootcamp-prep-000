@@ -16,8 +16,19 @@ addtobasket("orange")
 
 var cart = []
 
+/*
 function addToCart(item) {
   cart[item] = Math.floor(Math.random()*(100)+1)
+  console.log(`${item} has been added to your cart.`)
+  console.log(cart)
+  console.log(Object.keys(cart).length)
+}
+*/
+
+function addToCart(item) {
+  var addeditems = {[item]: Math.floor(Math.random()*(100)+1) }
+  cart.push(addeditems)
+  console.log(addeditems)
   console.log(`${item} has been added to your cart.`)
   console.log(cart)
   console.log(Object.keys(cart).length)
