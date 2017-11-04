@@ -58,7 +58,7 @@ console.log(`In your cart, you have ${food} at $${cost}.`)
 }
 console.log()
 */
-///addToCart("Milk")
+addToCart("Milk")
 addToCart("Cereal")
 addToCart("Steak")
 
