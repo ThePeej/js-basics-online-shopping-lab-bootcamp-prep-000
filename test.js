@@ -89,7 +89,7 @@ console.log()
 ///removeitem testing
 console.log('~~~ remove item testing ~~~')
 console.log(cart)
-console.log(Object.keys(cart(0)))
+console.log(Object.keys(cart[0]))
 function removeFromCart(item) {
   var inCart = false
   var modcart
