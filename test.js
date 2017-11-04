@@ -20,7 +20,7 @@ function addToCart(item) {
   cart[item] = Math.floor(Math.random()*(100)+1)
   console.log(`${item} has been added to your cart.`)
   console.log(cart)
-  console.log(cart.length)
+  console.log(Object.keys(cart).length)
 }
 
 addToCart("Ice Cream")
