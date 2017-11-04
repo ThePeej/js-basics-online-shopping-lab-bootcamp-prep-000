@@ -44,9 +44,10 @@ var n = cart.length
 console.log(n)
 
 for ( let i = 0; i < cart.length; i++) {
-console.log(cart)
-console.log(cart[i])
-console.log(Object.keys(cart[i])[0]) ///Gets 1 element array of key at [i] index, then gets value of said array at index [0]
+console.log(cart) ///cart is an array of objects (key-value pairs)
+console.log(cart[i]) ///displays the element at index [i] which is a key-value pair OBJECT 
+console.log(Object.keys(cart[i])) ///Gets 1 key of the key-value pair at index [i] (remember cart[i] is an OBJECT)
+console.log(Object.keys(cart[i])[0]) ///Then gets value of said array at index [0]
 console.log(cart[i][Object.keys(cart[i])[0]]) ///obj[key] = value
 console.log()
 }
