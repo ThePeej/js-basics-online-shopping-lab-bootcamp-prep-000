@@ -44,7 +44,17 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+  function removeFromCart(item) {
+    if (cart.hasOwnProperty(item)) {
+      console.log('yeah boi')
+      delete cart.item
+      console.log(cart)
+    } else {
+      console.log(`${item} is not in your cart.`)
+      console.log(cart)
+      return cart
+    }
+  }
 }
 
 function placeOrder(cardNumber) {
