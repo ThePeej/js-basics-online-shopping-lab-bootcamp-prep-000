@@ -38,5 +38,10 @@ addToCart("Ice Cream")
 addToCart("Cereal")
 addToCart("Steak")
 
+///viewCart testing
 var n = cart.length
 console.log(n)
+
+for ( let i = 0; i < cart.length; i++) {
+console.log(`You have ${cart[i]}`)
+}
