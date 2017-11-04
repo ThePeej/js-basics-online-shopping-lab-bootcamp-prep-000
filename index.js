@@ -54,11 +54,10 @@ function removeFromCart(item) {
     }
   }
   if (inCart) {
-    console.log("That item is not in your cart.")
     cart = [...cart.slice(0,itemnum),...cart.slice(itemnum+1)]
     console.log(cart)
   } else {
-    console.log(`${item} is not in your cart.`)
+    console.log("That item is not in your cart.")
     console.log(cart)
   }
 }
