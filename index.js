@@ -59,11 +59,9 @@ function removeFromCart(item) {
     console.log(cart)
   } else {
     console.log(`${item} is not in your cart.`)
-    return cart
+    console.log(cart)
   }
 }
-
-
 
 function placeOrder(cardNumber) {
   if (isNaN(cardNumber)) {
