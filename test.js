@@ -99,6 +99,7 @@ function removeFromCart(item) {
     } else {
       console.log(`${item} is not in your cart.`)
       console.log(cart)
+      return cart
     }
   }
 }
