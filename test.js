@@ -39,7 +39,7 @@ addToCart("Cereal")
 addToCart("Steak")
 
 ///viewCart testing
-console.log('~~viewCart testing~~')
+console.log('~~~ viewCart testing ~~~')
 var n = cart.length
 console.log(n)
 
