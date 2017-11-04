@@ -17,8 +17,10 @@ function addToCart(item) {
   return cart
 }
 
+console.log(cart.length)
+
 function viewCart() {
-  // write your code here
+  var n = cart.length
 }
 
 function total() {
