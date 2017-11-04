@@ -53,6 +53,5 @@ console.log()
 var food = Object.keys(cart[i])[0]
 var cost = cart[i][Object.keys(cart[i])[0]]
 console.log(food)
-
 console.log(`In your cart, you have ${food} at $${cost}.`)
 }
