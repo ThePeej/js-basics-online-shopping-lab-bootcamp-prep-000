@@ -28,9 +28,11 @@ function viewCart() {
     var cost = cart[0][Object.keys(cart[0])[0]]
     console.log(`In your cart, you have ${food} at $${cost}.`)
   } else if (n === 2) {
-    var food = Object.keys(cart[0])[0]
-    var cost = cart[0][Object.keys(cart[0])[0]]
-    console.log(`In your cart, you have ${food} at $${cost}.`)
+    var food1 = Object.keys(cart[0])[0]
+    var cost1 = cart[0][Object.keys(cart[0])[0]]
+    var food2 = Object.keys(cart[1])[0]
+    var cost2 = cart[0][Object.keys(cart[1])[0]]
+    console.log(`In your cart, you have ${food1} at $${cost1} and ${food2} at $${cost2}.`)
   } else {
     for ( let i = 0; i < cart.length-1; i++) {
       var food = Object.keys(cart[i])[0]
