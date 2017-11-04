@@ -90,14 +90,16 @@ console.log()
 console.log('~~~ remove item testing ~~~')
 console.log(cart)
 function removeFromCart(item) {
-  if (cart.hasOwnProperty(`Cereal`)) {
-    console.log('yeah boi')
-    delete cart.item
-    console.log(cart)
-  } else {
-    console.log(`${item} is not in your cart.`)
-    console.log(cart)
-    return cart
+  for ( let i = 0; i < cart.length; i++) {
+    if (cart[i].hasOwnProperty(item)) {
+      console.log('yeah boi')
+      delete cart.item
+      console.log(cart)
+    } else {
+      console.log(`${item} is not in your cart.`)
+      console.log(cart)
+      return cart
+    }
   }
 }
 removeFromCart("Yogurt")
