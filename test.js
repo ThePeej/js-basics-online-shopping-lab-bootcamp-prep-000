@@ -15,5 +15,14 @@ addtobasket("pear")
 addtobasket("orange")
 
 var cart = []
-var item = "watermelon"
-console.log(Object.assign({}, cart, {[item]: Math.floor(Math.random()*(100)+1)}))
+
+function addToCart(item) {
+  Object.assign({}, cart, {[item]: Math.floor(Math.random()*(100)+1)})
+  console.log(`${item} has been added to your cart.`)
+  console.log(cart)
+  console.log(cart.length)
+}
+
+addToCart("Ice Cream")
+addToCart("Cereal")
+addToCart("Steak")
