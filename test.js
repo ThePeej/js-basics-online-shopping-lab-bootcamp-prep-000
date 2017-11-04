@@ -69,7 +69,6 @@ for ( let i = 0; i < cart.length; i++) {
 }
 console.log()
 
-
 ///placeorder testing
 console.log('~~~ place order testing ~~~')
 
@@ -85,3 +84,7 @@ function placeOrder(cardNumber) {
 }
 
 placeOrder(123456789)
+console.log()
+
+///removeitem testing
+console.log('~~~ removeitem testing ~~~')
