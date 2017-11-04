@@ -95,7 +95,6 @@ function removeFromCart(item) {
     if (cart[i].hasOwnProperty(item)) {
       inCart = true
     } else {
-      inCart = false
     }
   }
   console.log()
