@@ -75,7 +75,7 @@ function viewCart() {
   }
 }
 
-viewcart()
+viewCart()
 /*
 ///total cost testing
 console.log('~~~ total cost testing ~~~')
