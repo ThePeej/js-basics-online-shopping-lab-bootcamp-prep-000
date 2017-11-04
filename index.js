@@ -15,7 +15,7 @@ function addToCart(item) {
   return cart
 }
 
-console.log(Math.floor(Math.random()*(100)+1))
+console.log('TEST')
 
 function viewCart() {
   // write your code here
