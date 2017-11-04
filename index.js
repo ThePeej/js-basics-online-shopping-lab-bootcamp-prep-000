@@ -30,8 +30,8 @@ function viewCart() {
     console.log(`In your cart, you have ${food} at $${cost}.`)
   } else {
     for ( let i = 0; i < cart.length; i++) {
-      var food = Object.keys(cart[i])[0]
-      var cost = cart[i][Object.keys(cart[i])[0]]
+      food = Object.keys(cart[i])[0]
+      cost = cart[i][Object.keys(cart[i])[0]]
     }
   }
 }
