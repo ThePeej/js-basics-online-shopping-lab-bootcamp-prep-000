@@ -113,4 +113,6 @@ function removeFromCart(item) {
   }
 }
 removeFromCart("Yogurt")
+removeFromCart("Milk")
 removeFromCart("Cereal")
+removeFromCart("Steak")
