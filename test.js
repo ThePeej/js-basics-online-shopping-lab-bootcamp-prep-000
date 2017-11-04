@@ -100,7 +100,7 @@ function removeFromCart(item) {
   }
   if (inCart) {
     console.log(`Didn\'t want the ${item} anyway`)
-    console.log(cart[item])
+    console.log(cart[0])
     console.log(cart)
   } else {
     console.log(`${item} is not in your cart.`)
