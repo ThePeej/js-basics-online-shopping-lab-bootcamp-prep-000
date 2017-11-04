@@ -34,7 +34,7 @@ function addToCart(item) {
   console.log(Object.keys(cart).length)
 }
 
-addToCart("Ice Cream")
+addToCart("Milk")
 addToCart("Cereal")
 addToCart("Steak")
 
