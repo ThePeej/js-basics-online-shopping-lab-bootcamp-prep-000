@@ -54,3 +54,12 @@ var food = Object.keys(cart[i])[0]
 var cost = cart[i][Object.keys(cart[i])[0]]
 console.log(`In your cart, you have ${food} at $${cost}.`)
 }
+
+///total cost testing
+var totalcost = 0
+console.log(totalcost)
+
+for ( let i = 0; i < cart.length; i++) {
+  totalcost = totalcost + 1
+  console.log(totalcost)
+}
