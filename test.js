@@ -105,7 +105,7 @@ function removeFromCart(item) {
     console.log(`Didn\'t want the ${item} anyway`)
     console.log(itemnum)
     cart = [...cart.slice(0,itemnum),...cart.slice(itemnum+1)]
-    ///console.log(cart)
+    console.log(cart)
   } else {
     console.log(`${item} is not in your cart.`)
     ///console.log(cart)
@@ -113,6 +113,6 @@ function removeFromCart(item) {
   }
 }
 removeFromCart("Yogurt")
-removeFromCart("Milk")
-removeFromCart("Cereal")
 removeFromCart("Steak")
+removeFromCart("Cereal")
+removeFromCart("Milk")
