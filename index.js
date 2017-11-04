@@ -59,8 +59,7 @@ function removeFromCart(item) {
     console.log(cart)
   } else {
     console.log(`${item} is not in your cart.`)
-    ///console.log(cart)
-    ///return cart
+    return cart
   }
 }
 
