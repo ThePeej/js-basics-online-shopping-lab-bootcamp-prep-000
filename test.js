@@ -51,5 +51,8 @@ console.log(Object.keys(cart[i])[0]) ///Then gets value of said array at index [
 console.log(cart[i][Object.keys(cart[i])[0]]) ///Gets the corresponding value of key-value pair (in the form of obj[key] = value
 console.log()
 var food = Object.keys(cart[i])[0]
+var cost = cart[i][Object.keys(cart[i])[0]]
 console.log(food)
+
+console.log(`In your cart, you have ${food} at $${cost}.`)
 }
