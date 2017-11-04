@@ -95,11 +95,12 @@ function removeFromCart(item) {
     if (cart[i].hasOwnProperty(item)) {
       inCart = true
     } else {
+      
     }
   }
   if (inCart) {
     console.log(`Didn\'t want the ${item} anyway`)
-    delete cart.item
+    console.log(cart.item)
     console.log(cart)
   } else {
     console.log(`${item} is not in your cart.`)
