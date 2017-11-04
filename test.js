@@ -48,6 +48,6 @@ console.log(cart)
 console.log(cart[i])
 console.log(Object.keys(cart[i]))
 var arrkeys = Object.keys(cart[i])
-console.log(arrkeys)
+console.log(arrkeys[0])
 console.log(cart[i][Object.keys(cart[i])])
 }
