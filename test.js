@@ -94,7 +94,7 @@ function removeFromCart(item) {
     delete cart.item
     console.log(cart)
   } else {
-    console.log("That item is not in your cart.")
+    console.log(`${item} is not in your cart.`)
     console.log(cart)
     return cart
   }
