@@ -23,7 +23,7 @@ function viewCart() {
     console.log("Your shopping cart is empty.")
   } else {
     for( i = 0, i < cart.length, i++) {
-      
+
     }
   }
 }
