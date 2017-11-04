@@ -74,7 +74,7 @@ console.log()
 console.log('~~~ total cost testing ~~~')
 
 function placeOrder(cardNumber) {
-  
+
   console.log(cardNumber)
   if (cardNumber) {
     console.log("Sorry, we don't have a credit card on file for you.")
