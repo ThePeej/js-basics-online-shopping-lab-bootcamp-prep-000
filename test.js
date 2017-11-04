@@ -116,3 +116,4 @@ removeFromCart("Yogurt")
 removeFromCart("Steak")
 removeFromCart("Cereal")
 removeFromCart("Milk")
+*/
