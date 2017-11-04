@@ -104,7 +104,7 @@ function removeFromCart(item) {
   if (inCart) {
     console.log(`Didn\'t want the ${item} anyway`)
     console.log(itemnum)
-    cart = cart.splice(itemnum,1)
+    cart = cart.splice(itemnum,1,...cart.slice(itemnum))
     console.log(cart)
   } else {
     console.log(`${item} is not in your cart.`)
