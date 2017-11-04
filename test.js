@@ -67,8 +67,8 @@ function viewCart() {
   if (n === 0) {
     console.log("Your shopping cart is empty.")
   } else if (n === 1) {
-    var food = Object.keys(cart[i])[0]
-    var cost = cart[i][Object.keys(cart[i])[0]]
+    var food = Object.keys(cart[0])[0]
+    var cost = cart[i][Object.keys(cart[0])[0]]
     console.log(`In your cart, you have ${food} at $${cost}.`)
   } else {
     for ( let i = 0; i < cart.length; i++) {
