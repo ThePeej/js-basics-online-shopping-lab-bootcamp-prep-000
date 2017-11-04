@@ -56,7 +56,7 @@ console.log(`In your cart, you have ${food} at $${cost}.`)
 }
 console.log()
 
-
+/*
 ///total cost testing
 console.log('~~~ total cost testing ~~~')
 var totalcost = 0
