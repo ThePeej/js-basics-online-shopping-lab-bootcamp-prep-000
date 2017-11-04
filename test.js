@@ -99,5 +99,5 @@ function removeFromCart(item) {
     return cart
   }
 }
-
+removeFromCart("Yogurt")
 removeFromCart("Cereal")
