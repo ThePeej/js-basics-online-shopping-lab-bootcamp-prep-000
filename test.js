@@ -64,6 +64,7 @@ addToCart("Steak")
 
 function viewCart() {
   var n = cart.length
+  var inCart = []
   if (n === 0) {
     console.log("Your shopping cart is empty.")
   } else if (n === 1) {
@@ -74,7 +75,6 @@ function viewCart() {
     for ( let i = 0; i < cart.length; i++) {
       var food = Object.keys(cart[i])[0]
       var cost = cart[i][Object.keys(cart[i])[0]]
-      var inCart = []
       inCart.push(` food at $cost,`)
     }
     console.log(inCart)
