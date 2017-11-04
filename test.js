@@ -59,7 +59,7 @@ console.log(`In your cart, you have ${food} at $${cost}.`)
 console.log()
 */
 ///addToCart("Milk")
-addToCart("Cereal")
+///addToCart("Cereal")
 addToCart("Steak")
 
 function viewCart() {
