@@ -51,12 +51,10 @@ function placeOrder(cardNumber) {
   if (isNaN(cardNumber)) {
     console.log("Sorry, we don't have a credit card on file for you.")
   } else {
-
     var totalcost = 0
     for ( let i = 0; i < cart.length; i++ ) {
       totalcost = totalcost + cart[i][Object.keys(cart[i])[0]]
     }
-
     console.log(`Your total cost is $${totalcost}, which will be charged to the card ${cardNumber}.`)
     return cart = []
   }
