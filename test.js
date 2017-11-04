@@ -97,9 +97,6 @@ function removeFromCart(item) {
     } else {
     }
   }
-  console.log()
-  console.log(inCart)
-  console.log()
   if (inCart) {
     console.log(`Didn\'t want the ${item} anyway`)
     delete cart.item
