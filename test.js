@@ -8,6 +8,7 @@ basket = []
 function addtobasket(item) {
   basket.push(item)
   console.log(basket)
+  console.log(basket.length)
 }
 
 addtobasket("pear")
