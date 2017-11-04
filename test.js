@@ -55,6 +55,8 @@ var cost = cart[i][Object.keys(cart[i])[0]]
 console.log(`In your cart, you have ${food} at $${cost}.`)
 }
 console.log()
+
+
 ///total cost testing
 console.log('~~~ total cost testing ~~~')
 var totalcost = 0
@@ -65,4 +67,17 @@ for ( let i = 0; i < cart.length; i++) {
   totalcost = totalcost + cart[i][Object.keys(cart[i])[0]]
   console.log(totalcost)
 }
+console.log()
 return totalcost
+
+///placeorder testing
+console.log('~~~ total cost testing ~~~')
+
+function placeOrder(cardNumber) {
+  if (cardnumber) {
+    console.log("Sorry, we don't have a credit card on file for you.")
+  } else {
+    console.log(`Your total cost is $${cartTotal}, which will be charged to the card ${cardNumber}.`)
+    return cart = []
+  }
+}
