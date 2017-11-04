@@ -68,7 +68,7 @@ for ( let i = 0; i < cart.length; i++) {
   console.log(totalcost)
 }
 console.log()
-return totalcost
+
 
 ///placeorder testing
 console.log('~~~ total cost testing ~~~')
