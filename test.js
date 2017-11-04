@@ -47,5 +47,5 @@ for ( let i = 0; i < cart.length; i++) {
 console.log(cart)
 console.log(cart[i])
 console.log(Object.keys(cart[i]))
-console.log(cart[Object.keys(cart[i])])
+console.log(item[Object.keys(cart[i])])
 }
