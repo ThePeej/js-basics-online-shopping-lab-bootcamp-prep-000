@@ -50,7 +50,8 @@ console.log(Object.keys(cart[i])) ///displays the 1 element array of the key of 
 console.log(Object.keys(cart[i])[0]) ///Then gets value of said array at index [0] (basically converts object to value)
 console.log(cart[i][Object.keys(cart[i])[0]]) ///Gets the corresponding value of key-value pair (in the form of obj[key] = value
 console.log()
-}
-
 var food = Object.keys(cart[i])[0]
 console.log(food)
+}
+
+
