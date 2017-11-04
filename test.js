@@ -71,7 +71,7 @@ console.log()
 
 
 ///placeorder testing
-console.log('~~~ total cost testing ~~~')
+console.log('~~~ place order testing ~~~')
 
 function placeOrder(cardNumber) {
 
